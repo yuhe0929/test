@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Greet</title>
+<!-- 开始编写javascript代码 -->
+<script type="text/javascript">
+	function greet()
+	{
+		var name = document.getElementById("name");
+		//如果找到name文本框
+		if(name)
+			alert("Hello"+name.value);//显示对话框
+	}
+	alert(typeof abc);
+	if(typeof abc == "undefined")
+		alert("abc未定义")
+</script>
+</head>
+<body>
+	<!-- 用于输入消息的文本框 -->
+	<input type="text" id ="name">
+	<!-- 调用greet方法的按钮 -->
+	<input type="button" value="Greet" onclick="greet()">
+</body>
+</html>
